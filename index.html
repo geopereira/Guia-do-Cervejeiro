@@ -1,0 +1,65 @@
+<!-- Código template por Geovane Oliveira -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8"/>
+	<title>Guia do Cervejeiro das Galáxias</title>
+	<link rel="stylesheet" type="text/css" href="_css/style.css">
+	<script language="javascript" src="_javascript/functions.js">
+	</script>
+</head>
+
+<body>
+	<div id="myInterface">
+		<header id="myHeader">
+			<h1>Guia do Cervejeiro<br>das Galáxias !!!</h1>
+			<img src="_imagens/stamp-ico.png" id="stampico">
+		</header>
+		
+		<section id="sectionLeft">
+			<div id="beermenu">	
+				<ul id="lager">
+					<li id="title">LAGER</li>
+					<a href="info.html#pilsen" target="info" onclick="fillCup('yellow')"><li>PILSEN</li></a>
+					<a href="info.html#americanlager" target="info" onclick="fillCup('yellow')"><li>AMERICAN LAGER</li></a>
+					<a href="info.html#amberlager" target="info" onclick="fillCup('red')"><li>AMBER LAGER</li></a>
+					<a href="info.html#dunkel" target="info" onclick="fillCup('goldenrod')"><li>DUNKEL</li></a>
+					<a href="info.html#bock" target="info" onclick="fillCup('brown')"><li>BOCK</li></a>
+				</ul>				
+				<ul id="ale">
+					<li id="title">ALE</li>
+					<a href="info.html#ipa" target="info" onclick="fillCup('goldenrod')"><li>IPA</li></a>
+					<a href="info.html#stout" target="info" onclick="fillCup('brown')"><li>STOUT</li></a>
+					<a href="info.html#weissbier" target="info" onclick="fillCup('goldenrod')"><li>WEISSBIER</li></a>
+					<a href="info.html#witbier" target="info" onclick="fillCup('goldenrod')"><li>WITBIER</li></a>
+					<a href="info.html#porter" target="info" onclick="fillCup('brown')"><li>PORTER</li></a>
+					<a href="info.html#abbey" target="info" onclick="fillCup('goldenrod')"><li>ABBEY</li></a>
+				</ul>
+			</div>
+			<img src="_imagens/bottles.png" id="bottles">
+		</section>
+		
+		<section id="sectionRight">
+			<span id="framespan">
+				<iframe name="info" src="info.html" id="frameinfo"></iframe>
+				<span id=beercolor>	</span>				
+				<img src="_imagens/beer-icon.png" id="beericon">
+			</span>
+		</section>
+		
+
+
+		
+		<footer id="myFooter">
+			<img src="_imagens/wheat.png" id="wheat1">
+			<h1>Guia do Cervejeiro das Galáxias | 2018</h1>
+			<h2>Todos os direitos reservados</h2>
+			<img src="_imagens/wheat.png" id="wheat2">
+		</footer>
+		
+	</div>	
+</body>
+
+</html>
